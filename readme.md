@@ -48,7 +48,7 @@ LocalStorage
 
 Aquí una vista previa de TaskMaster:
 
-![TaskMaster Preview](./assets/TaskMaster-js.png)
+![TaskMaster Preview](/assets/TaskMaster-js.png)
 
 ▶️ Cómo usarlo
 
