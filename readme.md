@@ -35,11 +35,14 @@ JavaScript Vanilla (ES6+)
 LocalStorage
 
 📦 Estructura del proyecto
-taskMaster-js/
+/taskMaster-js
+│── /html
+│     └── TodoList.html
 │
-├── TodoList.html      # Interfaz principal
-├── taskmaster.js      # Lógica de la aplicación
-└── README.md          # Documentación del proyecto
+│── /js
+│     └── taskmaster.js
+│
+└── README.md
 
 📸 Captura de pantalla (opcional)
 
