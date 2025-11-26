@@ -44,13 +44,11 @@ LocalStorage
 │
 └── README.md
 
-📸 Captura de pantalla (opcional)
+## 📸 Captura de pantalla
 
-(Puedes añadir una imagen de tu app aquí)
+Aquí una vista previa de TaskMaster:
 
-Ejemplo:
-
-![TaskMaster Preview](./screenshot.png)
+![TaskMaster Preview](./assets/TaskMaster-js.png)
 
 ▶️ Cómo usarlo
 
