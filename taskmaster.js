@@ -155,6 +155,19 @@ const date = dateInput.value;
         return;
     }
 
+   const today = new Date();
+    today.setHours(0, 0, 0, 0);
+
+const dateValue = new Date(dateInput.value);
+dateValue.setHours(0, 0, 0, 0);
+
+if (dateValue < today) {
+    alert("La fecha colocada no puede ser seleccionada");
+    return;
+}
+
+
+
     tasklist.push({
         id: countId++,
         title: task,
@@ -213,5 +226,5 @@ searchInput.addEventListener("input", ()=>{
 
     const respuesta = tasklist.filter(task => task.title.toLowerCase().includes(text));
     mostrarTareas(respuesta);
-    
+
 });
